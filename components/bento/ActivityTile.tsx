@@ -227,9 +227,8 @@ export default function ActivityTile() {
             strokeLinecap="round"
             className="transition-all duration-500 filter drop-shadow-[0_2px_8px_var(--tw-shadow-color)]"
             style={{
-              // @ts-ignore
               '--tw-shadow-color': activeData.glowColor,
-            }}
+            } as React.CSSProperties}
           />
 
           {/* Active Nodes */}
